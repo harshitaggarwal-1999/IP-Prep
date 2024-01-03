@@ -1,23 +1,8 @@
 package LinkedList;
 import java.util.*;
 
-class ListNode {
-    int val;
-    ListNode next;
-}
-
 public class CycleInLL {
     public static Scanner scn = new Scanner(System.in);
-
-    public static class ListNode {
-        int val = 0;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
-
 
     public static ListNode CycleNode(ListNode head) {
 
