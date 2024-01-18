@@ -3,6 +3,7 @@ import java.util.*;
 
 public class longestIncreasingSubsequence  {
     public int lengthOfLIS(int[] nums){
+        // O(nlogn) approach
         ArrayList<Integer> tail = new ArrayList<>();
         tail.add(nums[0]);
 
@@ -29,6 +30,7 @@ public class longestIncreasingSubsequence  {
     }
 
     public int lengthOfLIS1(int[] nums) {
+        // O(n^2) approach
         int n = nums.length;
         int[] lis = new int[n];
 
