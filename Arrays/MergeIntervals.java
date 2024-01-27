@@ -1,4 +1,8 @@
-class Solution {
+package Arrays;
+
+import java.util.*;
+
+public class MergeIntervals {
     public int[][] merge(int[][] intervals) {
 
         // sort array according to starting point in increasing order
