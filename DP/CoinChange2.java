@@ -1,6 +1,7 @@
 package DP;
 import java.util.*;
 
+// in this we ar suppossed to find all the possible number of ways thus returning the number of ways possible to form that combination
 public class CoinChange2 {
     public int f(int idx, int target, int[] coins, int[][] dp){
         // base case
