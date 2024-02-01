@@ -1,6 +1,7 @@
 package DP;
 import java.util.*;
 
+// DP on subsequence
 // in this question we are supposed to find minimum number of coins used to make the target if possible return answer otherwise return -1
 public class coinChange {
 
