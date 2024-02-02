@@ -52,7 +52,7 @@ public class coinChange {
         return dp[idx][target];
     }
 
-    public int coinChange(int[] coins , int target){
+    public int coinChangeBottomUp(int[] coins , int target){
         int n = coins.length;
         int[][] dp = new int[n][target+1];
 
