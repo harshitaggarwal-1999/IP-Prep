@@ -1,4 +1,4 @@
-package DP;
+package DP.DP_1d;
 import java.util.*;
 
 public class HouseRobbers1 {

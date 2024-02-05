@@ -1,4 +1,4 @@
-package DP;
+package DP.DP_1d;
 
 public class ClimbStairs {
     public int climbStairsTopDown(int n) {

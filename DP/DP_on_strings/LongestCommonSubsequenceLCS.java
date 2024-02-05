@@ -1,4 +1,4 @@
-package DP;
+package DP.DP_on_strings;
 
 public class LongestCommonSubsequenceLCS {
 

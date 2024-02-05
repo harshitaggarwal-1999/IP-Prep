@@ -1,4 +1,4 @@
-package DP;
+package DP.Partition_DP;
 
 public class MCM {
 
