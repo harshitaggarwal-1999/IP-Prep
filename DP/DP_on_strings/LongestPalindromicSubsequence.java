@@ -1,7 +1,7 @@
 package DP.DP_on_strings;
 import java.util.*;
 
-public class LongestPalindromicSubstring {
+public class LongestPalindromicSubsequence {
     public int longestPalindromeSubseq(String str) {
         StringBuilder sb = new StringBuilder(str);
         sb.reverse();
