@@ -1,11 +1,12 @@
 package Graphs;
+
 import java.util.*;
 
 public class IsGraphBipartite {
     public boolean isBipartite(int[][] graph) {
         int n = graph.length;
         // disconnected graph so all sources shall be individually checked
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             int[] vis = new int[n];
 
             Arrays.fill(vis, -1);
