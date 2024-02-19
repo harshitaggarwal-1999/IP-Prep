@@ -10,7 +10,6 @@ class Pair{
     }
 }
 
-
 class Solution
 {
 
