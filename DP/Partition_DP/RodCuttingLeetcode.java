@@ -1,4 +1,4 @@
-package DP.DP_on_subsequence;
+package DP.Partition_DP;
 import java.util.*;
 
 public class RodCuttingLeetcode {

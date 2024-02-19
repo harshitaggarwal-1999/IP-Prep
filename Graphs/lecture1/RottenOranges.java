@@ -1,4 +1,4 @@
-package Graphs;
+package Graphs.lecture1;
 import java.util.*;
 public class RottenOranges  {
     public class Pair{
