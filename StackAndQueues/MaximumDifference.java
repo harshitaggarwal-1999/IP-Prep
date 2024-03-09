@@ -4,6 +4,22 @@ import java.util.Stack;
 
 public class MaximumDifference {
     int findMaxDiff(int a[], int n) {
+        Stack<Integer> st = new Stack<>();
+        st.push(0);
+        int maxDiff = Integer.MIN_VALUE;
+        for (int i = 1; i < n; i++) {
+            int currelem = a[i];
+            while (st.isEmpty() == false && a[st.peek()] > currelem) {
+                int val = a[st.pop()];
+                int nsl = a[st.peek()];
+                int nsr = currelem;
+                maxDiff = Math.max(maxDiff, Math.abs(nsl-nsr));
+            }
+        }
+        return maxDiff;
+    }
+
+    int findMaxDiff2(int a[], int n) {
         // Your code here
         int[] ans1 = nextSmallerElementOnLeft(a, n);
         int[] ans2 = nextSmallerElementOnRight(a, n);
