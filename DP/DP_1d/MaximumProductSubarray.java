@@ -1,6 +1,6 @@
 package DP.DP_1d;
 
-public class MaximumProductSubarray {
+public class  MaximumProductSubarray {
     public int maxProduct(int[] arr) {
         int ans = Integer.MIN_VALUE;
 

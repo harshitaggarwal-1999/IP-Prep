@@ -52,7 +52,7 @@ public class CoinChange2 {
                 dp[0][i] = 1 ;
             }
         }
-        // cell meaning : arr[1][2] : if only 2 (idx = 0, idx = 1) coins were used what is the no, of ways to make amount equals to 2
+        // cell meaning : arr[1][2] : if only 2 (idx = 0, idx = 1) coins were used what is the no of ways to make amount equals to 2
 
         // direction of filling left to right and top to bottom ( as the cell dp[n-1][target] tells if all coins were consider what is the no. of ways to make that given amount)
 
