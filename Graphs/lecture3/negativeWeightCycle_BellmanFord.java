@@ -1,8 +1,6 @@
 package Graphs.lecture3;
 
 public class negativeWeightCycle_BellmanFord {
-}
-class Solution {
     public int isNegativeWeightCycle(int n, int[][] edges) {
         //code here
         int[] ans = new int[edges.length];
