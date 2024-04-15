@@ -12,7 +12,7 @@ public class LargestAreaHistogram {
         for (int i = 0; i <= heights.length; i++) {
             // 0 issiliye matalb hum end me pahcuh gye and last vaale ke liye hum 0 llenge
             // taaki vo calculate hi na ho as 0 into anything is 0
-            int val = i == heights.length ? 0 : heights[i];
+            int val = (i == heights.length) ? 0 : heights[i];
             while (st.isEmpty() == false && heights[st.peek()] > val) {
                 // is me we will take iterate over the whole array and then we will check kya
                 // hmara current element stack ke top most ko solve karsakta hai ya nahi if yes
